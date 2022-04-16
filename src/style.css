@@ -1,0 +1,23 @@
+.carousel {
+  width: 900px;
+  height: 500px;
+  margin: auto;
+}
+
+@media (max-width: 900px) {
+  .carousel {
+    width: auto;
+    height: auto;
+  }
+}
+
+.form {
+  background-color: azure;
+  padding: 2rem;
+}
+
+.backButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
